@@ -4,7 +4,7 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=ExampleKernel by osm0sis @ xda-developers
+kernel.string=AdesiaKernel by adityakevin50@gmail.com
 do.devicecheck=1
 do.modules=0
 do.cleanup=1
