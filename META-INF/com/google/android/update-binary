@@ -245,7 +245,7 @@ ui_print " ";
 
 ui_print "Installing...";
 
-cat /tmp/anykernel/kernel/Image.gz $dtb/*.dtb > /tmp/anykernel/Image.gz-dtb;
+cat /tmp/anykernel/kernel/zImage $dtb/*.dtb > /tmp/anykernel/Image.gz-dtb;
 if [ $? != "0" ]; then
   abort "DTB append failed. Aborting...";
 fi;
